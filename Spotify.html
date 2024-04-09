@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="Spotify.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="cross">
+                <img class="invert" src="cross.svg" alt="">
+            </div>
+
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <img src="logo.svg" alt="logo" width="100px">
+                </div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="Search">Search</li>
+
+                </ul>
+            </div>
+
+            <div class="liberary bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="liberary.svg" alt="">
+                    <h2> Your liberary </h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="right bg-grey rounded">
+            <div class="header ">
+                
+                    
+                
+                <div class="nav">
+                    <div class="hamburgerProp">
+
+                     <img class="invert hamburger" src="hamburger.svg" alt="">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <svg fill="#ffffff" width="22" height="22" version="1.1" id="lni_lni-chevron-left"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+                        <g>
+                            <path d="M43.3,57.3c-0.6,0-1.2-0.2-1.6-0.7l-22.6-23c-0.9-0.9-0.9-2.3,0-3.2l22.6-23c0.9-0.9,2.3-0.9,3.2,0c0.9,0.9,0.9,2.3,0,3.2
+		                            L23.9,32l21.1,21.4c0.9,0.9,0.9,2.3,0,3.2C44.4,57,43.9,57.3,43.3,57.3z" />
+                        </g>
+                    </svg>
+
+
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <svg fill="#ffffff" width="22" height="22" version="1.1" id="lni_lni-chevron-right"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+                        <g>
+                            <path
+                                d="M20.7,57.3c-0.6,0-1.1-0.2-1.6-0.6c-0.9-0.9-0.9-2.3,0-3.2L40.1,32L19.1,10.6c-0.9-0.9-0.9-2.3,0-3.2
+		                            c0.9-0.9,2.3-0.9,3.2,0l22.6,23c0.9,0.9,0.9,2.3,0,3.2l-22.6,23C21.9,57,21.3,57.3,20.7,57.3z" />
+                        </g>
+                    </svg> 
+
+                    </div>
+                    
+
+
+                </div>
+                <div class="button">
+                    <button class="signbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="Spotify-playlist">
+                <h1>Spotify Playlists</h1>
+                <div class="cardcontainer">
+                     </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="barinfo">
+                    <div class="songinfo">
+
+                    </div>
+                    <div class="songbutton">
+                        <img id="previous"  src="prevbtn.svg" alt="">
+                        <img id="play"      src="playbutton.svg" alt="">
+                        <img id="next"      src="nextbtn.svg" alt="">
+                    </div>
+                    <div class="TimeVol">
+                    <div class="songtime"></div>  
+                    <div class="volume">
+                        <img src="volume.svg" alt="" width="30px">
+                        <div class="range">
+                            <input type="range" name="volume" id="">
+                        </div>
+                    </div>  
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Spotify.js"></script>
+</body>
+
+</html>
